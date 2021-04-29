@@ -10,14 +10,17 @@ function Home(){
 
             </div>
 
+            <script>
+
+                function name() {
+                    console.log("K")
+                }
+
+            </script>
+
         </body>
     );
     
-}
-
-function test(){
-    
-    console.log("Deu certo!")
 }
 
 export default Home

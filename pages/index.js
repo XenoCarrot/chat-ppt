@@ -11,9 +11,9 @@ function Home(){
             </div>
 
             <script>
-                document.getElementById("button").addEventListener('click', test)
+                document.getElementById("button").addEventListener('click', function run(){test()})
             </script>
-            
+
         </body>
     );
     

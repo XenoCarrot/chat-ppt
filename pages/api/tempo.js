@@ -2,7 +2,7 @@ function tempo(request, response){
     const dynamiDate = new Date();
 
     responde.json({
-        date: dynamiDate.toGMTString()
+        date: dynamiDate.toTimeString()
     })
 }
 

@@ -1,7 +1,7 @@
 function tempo(request, response){
     const dynamiDate = new Date();
 
-    responde.json({
+    response.json({
         date: dynamiDate.toTimeString()
     })
 }
